@@ -1,0 +1,5 @@
+shinchoku:
+  image: trenpixster/elixir
+  volumes:
+    - ".:/elixir/app"
+  command: elixir /elixir/app/shinchoku.ex
